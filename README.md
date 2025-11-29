@@ -130,39 +130,7 @@ WHERE public.products.product_type IN ('Meat', 'Dairy')
 ## Tecnologie Utilizzate
 
 - **SQL (PostgreSQL)**: Query e analisi dati
-- **Python**: Elaborazione e validazione
-- **Jupyter Notebook**: Ambiente di sviluppo
-- **Pandas**: Manipolazione e analisi dati
-
-## Struttura del Progetto
-
-```
-├── notebook.ipynb          # Notebook principale con analisi complete
-├── README.md              # Documentazione del progetto
-└── requirements.txt       # Dipendenze Python (se applicabile)
-```
-
-## Come Eseguire il Progetto
-
-1. **Clona il repository:**
-   ```bash
-   git clone https://github.com/tuousername/grocery-store-analysis.git
-   cd grocery-store-analysis
-   ```
-
-2. **Installa le dipendenze:**
-   ```bash
-   pip install pandas jupyter psycopg2-binary
-   ```
-
-3. **Apri il notebook:**
-   ```bash
-   jupyter notebook notebook.ipynb
-   ```
-
-4. **Configura la connessione al database PostgreSQL** nel notebook
-
-5. **Esegui le celle** per riprodurre l'analisi
+- **DataCamp notebook (DataLab)**: Ambiente di sviluppo
 
 ## Insights Principali
 
@@ -176,24 +144,3 @@ WHERE public.products.product_type IN ('Meat', 'Dairy')
 - Monitorare la qualità dei dati inseriti nel sistema per evitare problemi simili al bug del 2022
 - Considerare l'espansione dell'offerta nella categoria Produce (range più ristretto)
 - Focalizzare le strategie di marketing sui 698 prodotti ad alto volume in Meat e Dairy
-
-## Validazione
-
-Il progetto include un sistema di validazione automatico che verifica:
-- ✅ Presenza di tutti i DataFrame richiesti
-- ✅ Correttezza delle colonne in output
-- ✅ Nomenclatura consistente delle variabili
-
-## Autore
-
-**Eugenio Berretta**
-
-## Licenza
-
-Questo progetto è stato sviluppato per scopi educativi e di analisi aziendale.
-
----
-
-## Contatti
-
-Per domande o suggerimenti, contattami su [GitHub](https://github.com/tuousername)
